@@ -1,14 +1,18 @@
 'use client';
 
-import { Suspense, useState } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
-function ResetPasswordContent() {
-  const params = useSearchParams();
+export default function ResetPasswordPage() {
   const router = useRouter();
 
-  const token = params.get('token') || '';
+  const params =
+    typeof window !== 'undefined'
+      ? new URLSearchParams(window.location.search)
+      : null;
+
+  const token = params?.get('token') || '';
 
   const [password, setPassword] = useState('');
   const [confirm, setConfirm] = useState('');
@@ -132,13 +136,5 @@ function ResetPasswordContent() {
         )}
       </div>
     </div>
-  );
-}
-
-export default function ResetPasswordPage() {
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <ResetPasswordContent />
-    </Suspense>
   );
 }
