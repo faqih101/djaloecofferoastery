@@ -58,6 +58,7 @@ export default function ContactPage() {
                   <div className="c-arrow">→</div>
                 </a>
                 {/* Location */}
+                <a href="https://maps.app.goo.gl/TwBdbaccyRvfQnCN9" target="_blank" rel="noopener" className="c-item c-item-link">
                 <div className="c-item">
                   <div className="c-icon c-icon-m">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -68,6 +69,8 @@ export default function ContactPage() {
                     <div className="c-title">Lokasi Roastery</div>
                     <div className="c-sub">{s.contact_location}</div>
                   </div>
+                  <div className="c-arrow">→</div>
+                </a>
                 </div>
                 {/* Instagram */}
                 <a href="https://www.instagram.com/djaloecoffeeroastery" target="_blank" rel="noopener" className="c-item c-item-link">
