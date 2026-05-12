@@ -90,7 +90,7 @@ export default function ContactPage() {
 
                   <div className="c-info">
                     <div className="c-title">WhatsApp Kami</div>
-                    <div className="c-sub">0878 7263 9755</div>
+                    <div className="c-sub">+62 878 7263 9755</div>
                   </div>
 
                   <div className="c-arrow">→</div>
