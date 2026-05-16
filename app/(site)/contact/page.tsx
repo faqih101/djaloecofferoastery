@@ -122,31 +122,7 @@ export default function ContactPage() {
                   <div className="c-arrow">→</div>
                 </a>
 
-                {/* Instagram */}
-                <a
-                  href="https://www.instagram.com/djaloecoffeeroastery"
-                  target="_blank"
-                  rel="noopener"
-                  className="c-item c-item-link"
-                >
-                  <div className="c-icon c-icon-m">
-                    <svg
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z" />
-                    </svg>
-                  </div>
-
-                  <div className="c-info">
-                    <div className="c-title">Instagram</div>
-                    <div className="c-sub">@djaloecoffeeroastery</div>
-                  </div>
-
-                  <div className="c-arrow">→</div>
-                </a>
+            
               </div>
             </div>
 
