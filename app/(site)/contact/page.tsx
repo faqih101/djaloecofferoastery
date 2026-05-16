@@ -71,7 +71,7 @@ export default function ContactPage() {
               <div className="contact-list">
                 {/* WhatsApp */}
                 <a
-                  href={`https://wa.me/${+6287872639755}`}
+                  href={`https://wa.me/${6287872639755}`}
                   target="_blank"
                   rel="noopener"
                   className="c-item c-item-link"
